@@ -1,0 +1,1125 @@
+body.blogzinga {
+  padding-top: 50px;
+  font-family: Helvetica, sans-serif;
+  background-color: #606060;
+  color: #404040;
+}
+body.blogzinga .small-col {
+  width: 15%;
+}
+body.blogzinga a,
+body.blogzinga a:hover {
+  color: #161616;
+}
+body.blogzinga .workingday {
+  margin-top: -5px;
+}
+body.blogzinga .edit-workingday {
+  margin-top: 35px;
+}
+body.blogzinga .day-check {
+  display: inline;
+}
+body.blogzinga .day-check .btn {
+  font-size: 11px;
+}
+body.blogzinga .row.breadcumbs {
+  min-height: 40px;
+  line-height: 40px;
+  background-color: #262626;
+  color: #d0d0d0;
+}
+body.blogzinga .progress {
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #d0d0d0;
+  background-image: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+  margin-top: 5px;
+  height: 30px;
+  width: 75%;
+  overflow: visible;
+  position: relative;
+}
+body.blogzinga .progress .percentage {
+  margin-left: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 33px;
+  position: absolute;
+  right: -62px;
+  color: #404040;
+}
+body.blogzinga .progress .progress-bar {
+  background-color: #606060;
+  background-image: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+}
+body.blogzinga a.std_link {
+  color: #262626;
+}
+body.blogzinga a.std_link:hover {
+  color: #cc0000;
+}
+.timetable,
+.evidence {
+  background-color: #eee;
+}
+.timetable .btn-danger,
+.evidence .btn-danger {
+  top: -2px;
+  position: relative;
+  padding: 3px 5px 1px;
+  font-size: 12px;
+}
+.holiday-table .col-sm-6 {
+  background-color: #eee;
+  margin-top: 2px;
+}
+.help-block.help-error {
+  color: #cc0000;
+}
+.logo {
+  height: 30px;
+  position: relative;
+  top: -5px;
+}
+.navbar-brand {
+  position: absolute;
+  width: 110px;
+  height: 50px;
+  top: 0;
+}
+.navbar-brand span {
+  margin-left: 10px;
+}
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    position: inherit;
+  }
+  .navbar-brand span {
+    margin-left: 0;
+  }
+  .navbar-brand .logo {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -15px;
+  }
+}
+.navbar-collapse {
+  position: relative;
+}
+#user-email {
+  position: absolute;
+  right: 45px;
+}
+#user-email a {
+  color: #fff;
+}
+#pulldown-menu {
+  position: absolute;
+  right: 0;
+  height: 50px;
+}
+#pulldown-menu a {
+  cursor: pointer;
+  color: #fff;
+}
+#pulldown-menu a span {
+  display: inline-block;
+  padding: 1px 2px 0px 4px;
+  border: 1px solid #fff;
+  background-color: #cc0000;
+  position: relative;
+  top: -2px;
+}
+#pulldown-menu a span i {
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.navbar-nav > li#pulldown-menu > .dropdown-menu {
+  background-color: #161616;
+  left: auto;
+  right: 0;
+}
+li#pulldown-menu > .dropdown-menu > li > a {
+  color: #999;
+}
+li#pulldown-menu > .dropdown-menu > li > a:hover,
+li#pulldown-menu > .dropdown-menu > li > a:focus {
+  background-color: #262626;
+  color: #fff;
+  background-image: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+}
+li#pulldown-menu .dropdown-menu .divider {
+  background-color: #262626;
+}
+@media screen and (max-width: 767px) {
+  .mobile-nav {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  body.ducati {
+    padding-top: 0;
+  }
+  body.ducati .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    /*& > li:last-child > a {
+                border-bottom: 0;
+            }*/
+  }
+  body.ducati .navbar-nav > li > a {
+    border-bottom: 1px solid #404040;
+  }
+  body.ducati .navbar-fixed-top {
+    position: relative;
+  }
+  body.ducati .navbar {
+    margin-bottom: 0;
+  }
+  body.ducati .navbar-inverse .navbar-toggle {
+    border-width: 0;
+  }
+  body.ducati .navbar-inverse .navbar-toggle:hover,
+  body.ducati .navbar-inverse .navbar-toggle:focus {
+    background-color: transparent;
+  }
+  #content-nav {
+    display: none;
+  }
+}
+.img-cover {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+}
+#page-title {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #d0d0d0;
+}
+#page-title .col-xl-4 {
+  line-height: 60px;
+  color: #606060;
+}
+#dealer-name {
+  position: relative;
+  z-index: 200;
+}
+#dealer-name h1 {
+  position: absolute;
+  top: -60px;
+  font-size: 34px;
+  padding: 18px 25px;
+  color: #262626;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+.quick-data {
+  text-align: right;
+  line-height: 50px;
+}
+#contents {
+  padding-bottom: 60px;
+  background-color: #f0f0f0;
+}
+.widget {
+  -webkit-animation: fadeIn .6s;
+  animation: fadeIn .6s;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #d0d0d0;
+}
+.widget .widget-header {
+  line-height: 40px;
+  padding: 3px 15px 0 15px;
+  position: relative;
+  color: #262626;
+  font-size: 16px;
+  border-bottom: 1px solid #d0d0d0;
+}
+.widget .widget-header .edit-icon {
+  position: absolute;
+  right: 15px;
+  line-height: 40px;
+  color: #606060;
+  cursor: pointer;
+}
+.widget .widget-header .glyphicon-play {
+  color: #d0d0d0;
+  cursor: pointer;
+}
+.widget .widget-header .glyphicon-play.up {
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  margin-left: 10px;
+}
+.widget .widget-header .glyphicon-play.down {
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-left: 5px;
+}
+.widget .widget-header .glyphicon-play.active {
+  color: #fff;
+}
+.widget .widget-table .row {
+  margin-bottom: 10px;
+}
+.widget .widget-table .text-muted {
+  color: #606060;
+  font-size: 12px;
+}
+.widget .widget-table .text-muted.separator {
+  margin-top: 10px;
+}
+.widget .widget-field {
+  margin-top: 15px;
+  border-bottom: 1px solid #d0d0d0;
+}
+.widget .widget-field .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.widget .widget-body {
+  padding: 15px;
+}
+.widget .widget-body .item-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.widget .widget-body .item-title .item-subtitle {
+  display: block;
+  font-size: 10px;
+  color: #606060;
+}
+.widget .widget-body .row:first-child .item-title {
+  margin-top: 0;
+}
+.widget .widget-body .img-upload {
+  width: 100%;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border: 5px dashed #d0d0d0;
+  position: relative;
+  overflow: hidden;
+  z-index: 400;
+}
+.widget .widget-body .img-upload img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  cursor: move;
+  z-index: 500;
+}
+.widget .widget-body .remove-image,
+.widget .widget-body .update-image {
+  display: inline-block;
+  cursor: pointer;
+  color: #cc0000;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.widget .widget-body .remove-image i,
+.widget .widget-body .update-image i {
+  margin-right: 4px;
+}
+.widget .widget-body .update-image {
+  color: #404040;
+}
+.widget .widget-body .upload-save,
+.widget .widget-body .progress-label {
+  margin-top: 20px;
+}
+.widget .widget-body .upload-save .btn + .btn,
+.widget .widget-body .progress-label .btn + .btn,
+.widget .widget-body .upload-save .btn + .popover + .btn,
+.widget .widget-body .progress-label .btn + .popover + .btn {
+  margin-left: 5px;
+}
+.widget .widget-body .new-role-save {
+  margin-top: 27px;
+}
+.widget .widget-body .form-group .control-label {
+  font-weight: 400;
+  color: #606060;
+}
+.widget .widget-body .form-group .form-control {
+  border-width: 2px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-color: #d0d0d0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.widget .widget-body .form-group .form-control:focus,
+.widget .widget-body .form-group .form-control:active {
+  border-color: #404040;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.widget .widget-body .form-group .help-block {
+  font-size: 12px;
+  color: #606060;
+  margin-bottom: 0;
+}
+.widget .widget-body .form-group.has-error .form-control {
+  border-color: #cc0000;
+}
+.widget .widget-body .form-group.has-error .help-block,
+.widget .widget-body .form-group.has-error .radio {
+  color: #cc0000;
+}
+.widget .widget-body .form-group.has-success .form-control {
+  border-color: #3d9970;
+}
+.widget .widget-body .form-group.has-success .help-block,
+.widget .widget-body .form-group.has-success .radio {
+  color: #3d9970;
+}
+.widget .widget-body .form-group .form-control.has-error {
+  border-color: #cc0000;
+}
+.widget.no-border {
+  border: 0;
+}
+.widget .glyphicon.read-only {
+  font-size: 11px;
+  margin-left: 7px;
+}
+.widget.widget-edit .widget-header {
+  background-color: #d0d0d0;
+}
+.widget.widget-edit .widget-header .edit-icon {
+  color: #262626;
+  cursor: pointer;
+}
+.name-header {
+  background-color: #d0d0d0;
+  line-height: 40px;
+  padding: 0 15px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.name-header .edit-icon {
+  position: absolute;
+  right: 15px;
+  line-height: 40px;
+  color: #262626;
+}
+.widget.widget-alt .widget-header {
+  background-color: #606060;
+  color: #fff;
+}
+.widget.widget-alt .widget-header .edit-icon {
+  color: #d0d0d0;
+}
+.meta-data {
+  display: inline-block;
+  font-size: 12px;
+  color: #d0d0d0;
+  margin-bottom: 10px;
+}
+#sidebar .widget:first-child {
+  -webkit-animation-name: none;
+  animation-name: none;
+  border-bottom: 0;
+}
+#sidebar .widget:first-child .widget-body {
+  padding: 0;
+}
+#content-nav {
+  margin-top: 20px;
+  width: 100%;
+}
+#content-nav .btn {
+  width: 33.3%;
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+#content-nav .btn:last-child {
+  border-left: 0 !important;
+}
+#content-nav:after {
+  content: " ";
+  clear: left;
+}
+.alert.alert-warning,
+.alert.alert-success,
+.alert.alert-info {
+  background-image: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+}
+.alert.alert-error {
+  background-color: #c0392b;
+  color: #fff;
+}
+.table.table-borderless th {
+  font-weight: 400;
+}
+.table.table-borderless td {
+  border-top-width: 0;
+}
+#overview .popover {
+  color: #606060;
+  width: 100px;
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  #dealer-name h1 {
+    font-size: 18px;
+    top: -40px;
+  }
+  .widget .widget-body {
+    padding: 10px;
+  }
+}
+/**********************************************************
+  BUTTONS
+**********************************************************/
+.ducati .btn {
+  text-align: center;
+  text-transform: uppercase;
+  color: #606060;
+  background-color: transparent;
+  border-color: #606060;
+  background-image: none;
+  border-radius: 10px;
+}
+.ducati .btn:hover,
+.ducati .btn:focus,
+.ducati .btn:active,
+.ducati .btn.active,
+.open > .dropdown-toggle.ducati .btn {
+  color: #ffffff;
+  background-color: #606060;
+  border-color: #606060;
+  outline: none;
+}
+.ducati .btn:active,
+.ducati .btn.active,
+.open > .dropdown-toggle.ducati .btn {
+  background-image: none;
+}
+.ducati .btn.disabled,
+.ducati .btn[disabled],
+fieldset[disabled] .ducati .btn,
+.ducati .btn.disabled:hover,
+.ducati .btn[disabled]:hover,
+fieldset[disabled] .ducati .btn:hover,
+.ducati .btn.disabled:focus,
+.ducati .btn[disabled]:focus,
+fieldset[disabled] .ducati .btn:focus,
+.ducati .btn.disabled:active,
+.ducati .btn[disabled]:active,
+fieldset[disabled] .ducati .btn:active,
+.ducati .btn.disabled.active,
+.ducati .btn[disabled].active,
+fieldset[disabled] .ducati .btn.active {
+  background-color: #ffffff;
+  border-color: #606060;
+}
+.ducati .btn .badge {
+  color: #ffffff;
+  background-color: #606060;
+}
+.ducati .btn.btn-primary {
+  border-radius: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #404040;
+  background-color: transparent;
+  border-color: #404040;
+  background-image: none;
+}
+.ducati .btn.btn-primary:hover,
+.ducati .btn.btn-primary:focus,
+.ducati .btn.btn-primary:active,
+.ducati .btn.btn-primary.active,
+.open > .dropdown-toggle.ducati .btn.btn-primary {
+  color: #ffffff;
+  background-color: #404040;
+  border-color: #404040;
+  outline: none;
+}
+.ducati .btn.btn-primary:active,
+.ducati .btn.btn-primary.active,
+.open > .dropdown-toggle.ducati .btn.btn-primary {
+  background-image: none;
+}
+.ducati .btn.btn-primary.disabled,
+.ducati .btn.btn-primary[disabled],
+fieldset[disabled] .ducati .btn.btn-primary,
+.ducati .btn.btn-primary.disabled:hover,
+.ducati .btn.btn-primary[disabled]:hover,
+fieldset[disabled] .ducati .btn.btn-primary:hover,
+.ducati .btn.btn-primary.disabled:focus,
+.ducati .btn.btn-primary[disabled]:focus,
+fieldset[disabled] .ducati .btn.btn-primary:focus,
+.ducati .btn.btn-primary.disabled:active,
+.ducati .btn.btn-primary[disabled]:active,
+fieldset[disabled] .ducati .btn.btn-primary:active,
+.ducati .btn.btn-primary.disabled.active,
+.ducati .btn.btn-primary[disabled].active,
+fieldset[disabled] .ducati .btn.btn-primary.active {
+  background-color: #ffffff;
+  border-color: #404040;
+}
+.ducati .btn.btn-primary .badge {
+  color: #ffffff;
+  background-color: #404040;
+}
+.ducati .btn.btn-primary.ladda-button[data-loading],
+.ducati .btn.btn-primary.ladda-button[data-loading]:hover {
+  background-color: #404040;
+  color: #d0d0d0;
+}
+.ducati .btn.btn-day-check {
+  padding: 5px 12px;
+  margin-top: -2px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.ducati .btn.btn-success {
+  color: #3d9970;
+  background-color: transparent;
+  border-color: #3d9970;
+  background-image: none;
+}
+.ducati .btn.btn-success:hover,
+.ducati .btn.btn-success:focus,
+.ducati .btn.btn-success:active,
+.ducati .btn.btn-success.active,
+.open > .dropdown-toggle.ducati .btn.btn-success {
+  color: #ffffff;
+  background-color: #3d9970;
+  border-color: #3d9970;
+  outline: none;
+}
+.ducati .btn.btn-success:active,
+.ducati .btn.btn-success.active,
+.open > .dropdown-toggle.ducati .btn.btn-success {
+  background-image: none;
+}
+.ducati .btn.btn-success.disabled,
+.ducati .btn.btn-success[disabled],
+fieldset[disabled] .ducati .btn.btn-success,
+.ducati .btn.btn-success.disabled:hover,
+.ducati .btn.btn-success[disabled]:hover,
+fieldset[disabled] .ducati .btn.btn-success:hover,
+.ducati .btn.btn-success.disabled:focus,
+.ducati .btn.btn-success[disabled]:focus,
+fieldset[disabled] .ducati .btn.btn-success:focus,
+.ducati .btn.btn-success.disabled:active,
+.ducati .btn.btn-success[disabled]:active,
+fieldset[disabled] .ducati .btn.btn-success:active,
+.ducati .btn.btn-success.disabled.active,
+.ducati .btn.btn-success[disabled].active,
+fieldset[disabled] .ducati .btn.btn-success.active {
+  background-color: #ffffff;
+  border-color: #3d9970;
+}
+.ducati .btn.btn-success .badge {
+  color: #ffffff;
+  background-color: #3d9970;
+}
+.ducati .btn.btn-danger {
+  color: #d9534f;
+  background-color: transparent;
+  border-color: #d9534f;
+  background-image: none;
+}
+.ducati .btn.btn-danger:hover,
+.ducati .btn.btn-danger:focus,
+.ducati .btn.btn-danger:active,
+.ducati .btn.btn-danger.active,
+.open > .dropdown-toggle.ducati .btn.btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d9534f;
+  outline: none;
+}
+.ducati .btn.btn-danger:active,
+.ducati .btn.btn-danger.active,
+.open > .dropdown-toggle.ducati .btn.btn-danger {
+  background-image: none;
+}
+.ducati .btn.btn-danger.disabled,
+.ducati .btn.btn-danger[disabled],
+fieldset[disabled] .ducati .btn.btn-danger,
+.ducati .btn.btn-danger.disabled:hover,
+.ducati .btn.btn-danger[disabled]:hover,
+fieldset[disabled] .ducati .btn.btn-danger:hover,
+.ducati .btn.btn-danger.disabled:focus,
+.ducati .btn.btn-danger[disabled]:focus,
+fieldset[disabled] .ducati .btn.btn-danger:focus,
+.ducati .btn.btn-danger.disabled:active,
+.ducati .btn.btn-danger[disabled]:active,
+fieldset[disabled] .ducati .btn.btn-danger:active,
+.ducati .btn.btn-danger.disabled.active,
+.ducati .btn.btn-danger[disabled].active,
+fieldset[disabled] .ducati .btn.btn-danger.active {
+  background-color: #ffffff;
+  border-color: #d9534f;
+}
+.ducati .btn.btn-danger .badge {
+  color: #ffffff;
+  background-color: #d9534f;
+}
+.ducati .btn.btn-info {
+  color: #606060;
+  background-color: transparent;
+  border-color: #606060;
+  background-image: none;
+}
+.ducati .btn.btn-info:hover,
+.ducati .btn.btn-info:focus,
+.ducati .btn.btn-info:active,
+.ducati .btn.btn-info.active,
+.open > .dropdown-toggle.ducati .btn.btn-info {
+  color: #ffffff;
+  background-color: #606060;
+  border-color: #606060;
+  outline: none;
+}
+.ducati .btn.btn-info:active,
+.ducati .btn.btn-info.active,
+.open > .dropdown-toggle.ducati .btn.btn-info {
+  background-image: none;
+}
+.ducati .btn.btn-info.disabled,
+.ducati .btn.btn-info[disabled],
+fieldset[disabled] .ducati .btn.btn-info,
+.ducati .btn.btn-info.disabled:hover,
+.ducati .btn.btn-info[disabled]:hover,
+fieldset[disabled] .ducati .btn.btn-info:hover,
+.ducati .btn.btn-info.disabled:focus,
+.ducati .btn.btn-info[disabled]:focus,
+fieldset[disabled] .ducati .btn.btn-info:focus,
+.ducati .btn.btn-info.disabled:active,
+.ducati .btn.btn-info[disabled]:active,
+fieldset[disabled] .ducati .btn.btn-info:active,
+.ducati .btn.btn-info.disabled.active,
+.ducati .btn.btn-info[disabled].active,
+fieldset[disabled] .ducati .btn.btn-info.active {
+  background-color: #ffffff;
+  border-color: #606060;
+}
+.ducati .btn.btn-info .badge {
+  color: #ffffff;
+  background-color: #606060;
+}
+.ducati .btn.btn-link {
+  border-width: 0;
+}
+.ducati .btn.btn-link:hover {
+  background-color: transparent;
+  color: #262626;
+}
+.ducati .btn-default,
+.ducati .btn-primary,
+.ducati .btn-success,
+.ducati .btn-info,
+.ducati .btn-warning,
+.ducati .btn-danger {
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.ducati .btn-default:active,
+.ducati .btn-primary:active,
+.ducati .btn-success:active,
+.ducati .btn-info:active,
+.ducati .btn-warning:active,
+.ducati .btn-danger:active,
+.ducati .btn-default.active,
+.ducati .btn-primary.active,
+.ducati .btn-success.active,
+.ducati .btn-info.active,
+.ducati .btn-warning.active,
+.ducati .btn-danger.active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.ducati .btn:active,
+.ducati .btn.active {
+  background-image: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.ducati .input-group-btn > .btn {
+  border-width: 2px;
+  line-height: 18px;
+  border-color: #d0d0d0;
+  background-color: #d0d0d0;
+}
+.ducati .input-group-btn > .btn:hover,
+.ducati .input-group-btn > .btn:focus,
+.ducati .input-group-btn > .btn:active {
+  border-color: #606060;
+  background-color: #606060;
+  outline: none;
+}
+.ducati .input-group-btn:last-child > .btn,
+.ducati .input-group-btn:last-child > .btn-group {
+  margin-left: -2px;
+}
+.ducati .btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-right-radius: 10px;
+}
+.ducati .btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 10px;
+}
+.ducati .modal-content .btn-primary {
+  color: #d0d0d0;
+  background-color: transparent;
+  border-color: #d0d0d0;
+  background-image: none;
+}
+.ducati .modal-content .btn-primary:hover,
+.ducati .modal-content .btn-primary:focus,
+.ducati .modal-content .btn-primary:active,
+.ducati .modal-content .btn-primary.active,
+.open > .dropdown-toggle.ducati .modal-content .btn-primary {
+  color: #ffffff;
+  background-color: #d0d0d0;
+  border-color: #d0d0d0;
+  outline: none;
+}
+.ducati .modal-content .btn-primary:active,
+.ducati .modal-content .btn-primary.active,
+.open > .dropdown-toggle.ducati .modal-content .btn-primary {
+  background-image: none;
+}
+.ducati .modal-content .btn-primary.disabled,
+.ducati .modal-content .btn-primary[disabled],
+fieldset[disabled] .ducati .modal-content .btn-primary,
+.ducati .modal-content .btn-primary.disabled:hover,
+.ducati .modal-content .btn-primary[disabled]:hover,
+fieldset[disabled] .ducati .modal-content .btn-primary:hover,
+.ducati .modal-content .btn-primary.disabled:focus,
+.ducati .modal-content .btn-primary[disabled]:focus,
+fieldset[disabled] .ducati .modal-content .btn-primary:focus,
+.ducati .modal-content .btn-primary.disabled:active,
+.ducati .modal-content .btn-primary[disabled]:active,
+fieldset[disabled] .ducati .modal-content .btn-primary:active,
+.ducati .modal-content .btn-primary.disabled.active,
+.ducati .modal-content .btn-primary[disabled].active,
+fieldset[disabled] .ducati .modal-content .btn-primary.active {
+  background-color: #ffffff;
+  border-color: #d0d0d0;
+}
+.ducati .modal-content .btn-primary .badge {
+  color: #ffffff;
+  background-color: #d0d0d0;
+}
+.ducati .modal-content .btn-primary:hover {
+  color: #404040;
+}
+.navbar-inverse {
+  background-color: #161616;
+  border-color: #161616;
+}
+/**********************************************************
+  MODAL
+**********************************************************/
+.ducati .modal-content {
+  background-color: #161616;
+  color: #d0d0d0;
+}
+.ducati .modal-content h3 {
+  font-size: 18px;
+}
+.ducati .modal-header,
+.ducati .modal-footer {
+  border-color: #404040;
+}
+/**********************************************************
+  CALENDAR
+**********************************************************/
+.dropdown-menu.ng-pristine,
+.dropdown-menu.ng-valid-date {
+  padding-top: 0;
+  border-radius: 0;
+}
+.dropdown-menu.ng-pristine *:focus,
+.dropdown-menu.ng-valid-date *:focus {
+  outline: none;
+}
+.dropdown-menu.ng-pristine em,
+.dropdown-menu.ng-valid-date em {
+  font-style: normal;
+}
+.dropdown-menu.ng-pristine:focus,
+.dropdown-menu.ng-valid-date:focus {
+  outline: 0;
+}
+.dropdown-menu.ng-pristine .btn,
+.dropdown-menu.ng-valid-date .btn {
+  border-radius: 0;
+}
+.dropdown-menu.ng-pristine .btn.btn-default,
+.dropdown-menu.ng-valid-date .btn.btn-default {
+  border-color: #d0d0d0;
+}
+.dropdown-menu.ng-pristine .btn.btn-default:hover .text-muted,
+.dropdown-menu.ng-valid-date .btn.btn-default:hover .text-muted {
+  color: #fff;
+}
+.dropdown-menu.ng-pristine .btn.btn-default.active,
+.dropdown-menu.ng-valid-date .btn.btn-default.active {
+  background-color: #cc0000;
+}
+.dropdown-menu.ng-pristine .btn.btn-default.active .text-info,
+.dropdown-menu.ng-valid-date .btn.btn-default.active .text-info,
+.dropdown-menu.ng-pristine .btn.btn-default.active .text-muted,
+.dropdown-menu.ng-valid-date .btn.btn-default.active .text-muted {
+  color: #fff;
+}
+.dropdown-menu.ng-pristine .btn.btn-success,
+.dropdown-menu.ng-valid-date .btn.btn-success {
+  border-radius: 3px;
+  border-color: #404040;
+  background-color: #fff;
+  color: #404040;
+}
+.dropdown-menu.ng-pristine .btn.btn-success:hover,
+.dropdown-menu.ng-valid-date .btn.btn-success:hover {
+  border-color: #404040;
+  background-color: #404040;
+  color: #fff;
+}
+.dropdown-menu.ng-pristine .btn-group .btn.btn-info,
+.dropdown-menu.ng-valid-date .btn-group .btn.btn-info,
+.dropdown-menu.ng-pristine .btn-group .btn.btn-danger,
+.dropdown-menu.ng-valid-date .btn-group .btn.btn-danger {
+  background-color: #fff;
+  border-color: #606060;
+  color: #606060;
+}
+.dropdown-menu.ng-pristine .btn-group .btn.btn-info:hover,
+.dropdown-menu.ng-valid-date .btn-group .btn.btn-info:hover,
+.dropdown-menu.ng-pristine .btn-group .btn.btn-danger:hover,
+.dropdown-menu.ng-valid-date .btn-group .btn.btn-danger:hover {
+  background-color: #606060;
+  color: #fff;
+}
+.dropdown-menu.ng-pristine .btn-group .btn.btn-info,
+.dropdown-menu.ng-valid-date .btn-group .btn.btn-info {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.dropdown-menu.ng-pristine .btn-group .btn.btn-danger,
+.dropdown-menu.ng-valid-date .btn-group .btn.btn-danger {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+/**********************************************************
+  MODAL
+**********************************************************/
+body.ducati .modal-content,
+body.ducati .modal-content .row {
+  background-color: #262626;
+  color: #d0d0d0;
+}
+body.ducati .modal-content .modal-header,
+body.ducati .modal-content .modal-footer {
+  border-color: #404040;
+}
+body.ducati .modal-content .modal-title {
+  font-size: 18px;
+}
+/**********************************************************
+  LANGUAGE SELECTION
+**********************************************************/
+body.ducati .language-link {
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+body.ducati .language-link img {
+  margin-right: 10px;
+}
+body.ducati .language-link:hover {
+  background-color: #404040;
+  text-decoration: none;
+}
+/**********************************************************
+  ANIMAZIONI
+**********************************************************/
+.widget,
+.img-cover {
+  -webkit-animation: fadeIn .6s;
+  animation: fadeIn .6s;
+}
+#dealer-name {
+  -webkit-animation: slowFadeIn 1s;
+  animation: slowFadeIn 1s;
+}
+#sidebar .widget {
+  -webkit-animation: none;
+  animation: none;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slowFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes slowFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slowFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/***********************************************************************************
+  SPLASH
+***********************************************************************************/
+.splash {
+  position: relative;
+  width: 100%;
+  line-height: 50px;
+}
+.rotate {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 6px solid #606060;
+  border-right-color: #262626;
+  border-radius: 50%;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  margin-left: -20px;
+  -webkit-animation: infiniteLoop 1.4s infinite linear;
+  animation: infiniteLoop 1.4s infinite linear;
+}
+/***********************************************************************************
+  INTINITE LOOP
+***********************************************************************************/
+@-webkit-keyframes infiniteLoop {
+  0% {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes infiniteLoop {
+  0% {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+div.loading-red {
+  width: 100%;
+  height: 166px;
+  background-image: url('../img/loadingRed.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+div.loading-red-panoramic {
+  width: 100%;
+  height: 166px;
+  background-image: url('../img/loadingRed.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+div.loading-red-header {
+  width: 100%;
+  height: 280px;
+  background-image: url('../img/loadingRed.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 36px 36px;
+}
+.img-loading-container {
+  position: relative;
+  text-align: center;
+  z-index: 100;
+}
+.img-loading-container span {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  bottom: 10px;
+  left: 0;
+  z-index: 700;
+  font-size: 85%;
+}
+.img-loading-container.img-cover-container span {
+  bottom: 60px;
+}
