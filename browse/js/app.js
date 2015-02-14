@@ -42,7 +42,7 @@ angular.module('blogzinga', new BlogzingaApp()).config(['$stateProvider', '$urlR
 /*
 App Module
  */
-var BlogList, BlogListApp, BlogListConfiguration, BlogListService, Join, RandomHeader;
+var BlogList, BlogListApp, BlogListConfiguration, BlogListService, Join, RandomHeader, RandomLabel;
 
 BlogListApp = (function() {
   function BlogListApp() {
@@ -73,10 +73,13 @@ BlogListConfiguration = (function() {
 BlogList = (function() {
   function BlogList($scope, BlogListService, base64) {
     BlogListService.getBlogs().then(function(resp) {
-      $scope.blogs = angular.fromJson(base64.decode(resp));
+      $scope.blogs = resp;
     });
     $scope.openUrl = function(url) {
       return window.open(url);
+    };
+    $scope.filterByTag = function(tag) {
+      return $scope.filterBlog = tag;
     };
   }
 
@@ -85,11 +88,13 @@ BlogList = (function() {
 })();
 
 BlogListService = (function() {
-  function BlogListService($http) {
+  function BlogListService($http, base64) {
     return {
       getBlogs: function() {
         return $http.get('https://api.github.com/repos/cosenonjaviste/blogzinga/contents/blogs.json?ref=master').then(function(resp) {
-          return resp.data.content;
+          var base64Content;
+          base64Content = resp.data.content;
+          return angular.fromJson(base64.decode(base64Content));
         });
       }
     };
@@ -129,6 +134,25 @@ RandomHeader = (function() {
 
 })();
 
-angular.module('bloglist', new BlogListApp()).config(['$stateProvider', BlogListConfiguration]).controller('blogListController', ['$scope', 'BlogListService', 'base64', BlogList]).factory('BlogListService', ['$http', BlogListService]).filter('join', [Join]).directive('randomHeader', [RandomHeader]);
+RandomLabel = (function() {
+  function RandomLabel() {
+    return {
+      restict: 'A',
+      link: function($scope, $element, $attrs) {
+        var classes, random;
+        classes = ['label-primary', 'label-success', 'label-warning', 'label-danger', 'label-info'];
+        random = function() {
+          return Math.floor(Math.random() * (classes.length - 1));
+        };
+        return $element.addClass(classes[random()]);
+      }
+    };
+  }
+
+  return RandomLabel;
+
+})();
+
+angular.module('bloglist', new BlogListApp()).config(['$stateProvider', BlogListConfiguration]).controller('blogListController', ['$scope', 'BlogListService', 'base64', BlogList]).factory('BlogListService', ['$http', 'base64', BlogListService]).filter('join', [Join]).directive('randomHeader', [RandomHeader]).directive('randomLabel', [RandomLabel]);
 
 //# sourceMappingURL=maps/app.js.map
