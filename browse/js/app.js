@@ -42,7 +42,7 @@ angular.module('blogzinga', new BlogzingaApp()).config(['$stateProvider', '$urlR
 /*
 App Module
  */
-var BlogList, BlogListApp, BlogListConfiguration, BlogListService, Join;
+var BlogList, BlogListApp, BlogListConfiguration, BlogListService, Join, RandomHeader;
 
 BlogListApp = (function() {
   function BlogListApp() {
@@ -75,6 +75,9 @@ BlogList = (function() {
     BlogListService.getBlogs().then(function(resp) {
       $scope.blogs = angular.fromJson(base64.decode(resp));
     });
+    $scope.openUrl = function(url) {
+      return window.open(url);
+    };
   }
 
   return BlogList;
@@ -107,6 +110,25 @@ Join = (function() {
 
 })();
 
-angular.module('bloglist', new BlogListApp()).config(['$stateProvider', BlogListConfiguration]).controller('blogListController', ['$scope', 'BlogListService', 'base64', BlogList]).factory('BlogListService', ['$http', BlogListService]).filter('join', [Join]);
+RandomHeader = (function() {
+  function RandomHeader() {
+    return {
+      restrict: 'A',
+      link: function($scope, $element, $attrs) {
+        var classes, random;
+        classes = ['panel-primary', 'panel-success', 'panel-warning', 'panel-danger', 'panel-info'];
+        random = function() {
+          return Math.floor(Math.random() * (classes.length - 1));
+        };
+        $element.parent().addClass(classes[random()]);
+      }
+    };
+  }
+
+  return RandomHeader;
+
+})();
+
+angular.module('bloglist', new BlogListApp()).config(['$stateProvider', BlogListConfiguration]).controller('blogListController', ['$scope', 'BlogListService', 'base64', BlogList]).factory('BlogListService', ['$http', BlogListService]).filter('join', [Join]).directive('randomHeader', [RandomHeader]);
 
 //# sourceMappingURL=maps/app.js.map
