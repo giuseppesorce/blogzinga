@@ -73,7 +73,7 @@ BlogListConfiguration = (function() {
 BlogList = (function() {
   function BlogList($scope, BlogListService, base64) {
     BlogListService.getBlogs().then(function(resp) {
-      $scope.blogs = resp;
+      $scope.blogs = _.sortBy(resp, 'title');
     });
     $scope.openUrl = function(url) {
       return window.open(url);
