@@ -124,7 +124,7 @@ BlogListService = (function() {
   function BlogListService($http, base64) {
     return {
       getBlogs: function() {
-        return $http.get('https://api.github.com/repos/cosenonjaviste/blogzinga/contents/blogs.json?ref=master').then(function(resp) {
+        return $http.get('https://api.github.com/repos/cosenonjaviste/blogzinga/contents/blogs.json?ref=gh-pages').then(function(resp) {
           var base64Content;
           base64Content = resp.data.content;
           return angular.fromJson(base64.decode(base64Content));
