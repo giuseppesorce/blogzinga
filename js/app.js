@@ -6,7 +6,7 @@ var BlogzingaApp, BlogzingaConfiguration;
 
 BlogzingaApp = (function() {
   function BlogzingaApp() {
-    return ['ui.router', 'templates', 'bloglist', 'about'];
+    return ['ui.router', 'templates', 'bloglist', 'about', 'contribute'];
   }
 
   return BlogzingaApp;
@@ -187,5 +187,38 @@ RandomLabel = (function() {
 })();
 
 angular.module('bloglist', new BlogListApp()).config(['$stateProvider', BlogListConfiguration]).controller('blogListController', ['$scope', 'BlogListService', 'base64', BlogList]).factory('BlogListService', ['$http', 'base64', BlogListService]).filter('join', [Join]).directive('randomHeader', [RandomHeader]).directive('randomLabel', [RandomLabel]);
+
+
+/*
+App Module
+ */
+var ContributeApp, ContributeConfiguration;
+
+ContributeApp = (function() {
+  function ContributeApp() {
+    return ['ui.router', 'templates'];
+  }
+
+  return ContributeApp;
+
+})();
+
+ContributeConfiguration = (function() {
+  function ContributeConfiguration($stateProvider) {
+    $stateProvider.state('blogs.contribute', {
+      url: '/contribute',
+      views: {
+        '': {
+          templateUrl: 'components/contribute/contribute.html'
+        }
+      }
+    });
+  }
+
+  return ContributeConfiguration;
+
+})();
+
+angular.module('contribute', new ContributeApp()).config(['$stateProvider', ContributeConfiguration]);
 
 //# sourceMappingURL=maps/app.js.map

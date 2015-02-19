@@ -43,6 +43,15 @@ body {
 .about .list-group-item-text {
   color: #888 !important;
 }
+.contribute .step {
+  text-align: center;
+}
+.contribute .step .fa {
+  font-size: 3em;
+}
+.contribute .step span {
+  font-size: 1.5em;
+}
 
 @import url("//fonts.googleapis.com/css?family=Roboto:300,400,500");
 /*!
