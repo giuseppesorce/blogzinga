@@ -291,6 +291,22 @@
   },
    {
     "version": 1,
+    "title": "Giuseppe Sorce",
+    "topic": "Android development blog"
+    "authors": [
+      "Giuseppe Sorce"
+    ],
+    "languages": ["it"],
+    "preview": "",
+    "tags": [
+      "Android",
+      "Java","Mobile","Android Studio"
+    ],
+    "url": "http://www.giuseppesorce.com/"
+    "twitter": "https://twitter.com/warpmobile_it",
+  },
+   {
+    "version": 1,
     "title": "Surviving w/ Android",
     "topic": "Android development blog Tutorials about Android dev topics",
     "authors": [
